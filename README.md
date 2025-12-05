@@ -2,14 +2,14 @@
 Un gioco di parole in Python in cui i giocatori devono creare acronimi a partire da parole selezionate casualmente. Metti alla prova il tuo vocabolario e la tua rapidità cercando di formare acronimi validi senza errori!
 
 ## Caratteristiche
--  Seleziona parole casuali da una lista di parole/acronimi comuni.
--    Verifica che l’acronimo sia:
-    - Diverso dalla parola originale.
-    - Composto dalle stesse lettere e con lo stesso numero di ciascuna lettera.
-    - Composto solo da lettere presenti nella parola originale.
--  Visualizza un conto alla rovescia prima di ogni turno.
--  Tiene traccia del punteggio e mostra un messaggio finale in base alle prestazioni.
--  Le parole selezionate non si ripetono durante una partita.
+1.    Seleziona parole casuali da una lista di parole con acronimi.
+2.    Verifica che l'acronimo sia:
+      - Diverso dalla parola giusta.
+      - Composto dalle stesse lettere e con lo stesso numero di ciascuna lettera.
+      - Composto solo da lettere presenti nella parola originale.
+3.    Visualizza un conto alla rovescia prima di ogni turno.
+4.    Tiene traccia del punteggio e mostra un messaggio finale in base alle prestazioni.
+5.    Le parole selezionate non si ripetono durante una partita.
 
 ## Installazione
 1. Scarica o copia il file game.py e il file words.txt nella stessa cartella sul tuo computer.
@@ -18,7 +18,7 @@ Un gioco di parole in Python in cui i giocatori devono creare acronimi a partire
 
 Avvia il gioco eseguendo:
 ```
-python game.py
+python main.py
 ```
 
 ## Come giocare
